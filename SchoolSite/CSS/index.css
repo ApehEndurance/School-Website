@@ -215,6 +215,11 @@ h3{
     text-align: center;
     padding-top: 100px;
 }
+.facilities-row{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
 .facilities-col{
     flex-basis: 31%;
     border-radius: 10px;

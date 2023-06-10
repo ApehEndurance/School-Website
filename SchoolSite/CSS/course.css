@@ -61,21 +61,80 @@ header h1{
     text-align: center;
     padding-top: 100px;
 }
-.course-section h2{
+h2{
     font-size: 36px;
     font-weight: 14px;
 }
-.course-section p{
+p{
     color: #777;
     font-size: 14px;
     font-family: 400;
     line-height: 22px;
     padding: 10px;
 }
-.course-row{
+.row{
+    display: flex;
+    gap: 20px;
 
 }
 .course-col{
-     background: #fff3f3;
-     padding: 12px 20px;
+    flex-basis: 31%;
+    width: 230px;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    margin-top: 5%;
+    transition: 0.5s;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+/* Faclities */
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.facilities p{
+    padding-bottom: 5%;
+}
+.facilities-col{
+    flex-basis: 31%;
+    padding: 10px;
+    text-align: left;
+}
+.facilities-col img{
+    border-radius: 10%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.facilities-col h3{
+    font-weight: 900;
+   margin-bottom: 10px;
+}
+.facilities-col p{
+    color:#777;
+    padding: 0;
+}
+/* Footer */
+footer{
+    width: 100%;
+    text-align: center;
+}
+footer h4{
+    padding-top: 50px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa-brands{
+    color:#f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.icons .fa-solid{
+    color: #f44336;
 }
