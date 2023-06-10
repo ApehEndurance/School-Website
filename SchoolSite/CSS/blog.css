@@ -88,7 +88,7 @@ table tr{
     text-align: left;
 }
 .text p{
-    text-align: left;
+    text-align: justify;
     line-height: 27px;
     margin-bottom: 20px;
     color: grey;
@@ -124,4 +124,26 @@ input{
     font-size: 12px;
     margin-left: 30px;
     cursor: pointer;
+}
+/* Footer */
+footer{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+footer h4{
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+footer p{
+    color: grey;
+}
+.icons .fa-brands{
+    color:#f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.icons .fa-solid{
+    color: #f44336;
 }
